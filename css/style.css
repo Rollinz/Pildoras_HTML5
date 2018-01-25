@@ -13,12 +13,25 @@ body{
 
 #barralateral{
     background-color: goldenrod;
+    float: left;
+    height: 897px;
 }
 
 #contenidoprincipal{
     background-color: yellowgreen;
+    margin-left: 230px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #pieprincipal{
     background-color: red;
+    clear: both;
+    margin-top: 20px;
+}
+
+li{
+    background-color: coral;
+    display: inline;
 }

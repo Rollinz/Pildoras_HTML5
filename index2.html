@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Pagina dos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <link rel="stylesheet" href="css/style2.css">
         <!---<style>
             p[name="miselementos"]{
                 background-color: crimson;
@@ -15,20 +15,38 @@
             }
         </style>-->
         <style>
+            @font-face{
+                font-family: 'MiPropiaFuente';
+                src: url('gunplayrg.ttf');
+            }
+
             #principal{
                 width: 500px;
-                background-color: royalblue;
+                /*background-color: royalblue;*/
                 text-align: center;
                 margin: 15px auto;
                 padding: 15px;
                 border: 3px solid crimson;
                 border-radius: 15px;
                 box-shadow: grey 2px 2px 10px;
+                background: -moz-radial-gradient(center, ellipse, royalblue,blanchedalmond);
+                /* outline: 2px dashed royalblue;
+                outline-offset: 15px; */
+                /* -moz-transform: scale(1,-1); */
+                /* -moz-transform: rotate(180deg); */
+                /* -moz-transform: skew(30deg); */
+                -moz-transition: -moz-transform 1s ease 0.5s;
             }
 
+            #principal:hover{
+                -moz-transform: rotate(360deg);
+            }
+
+
             #titulo{
-                font: bold 36px Verdana, Geneva, sans-serif;
+                font: bold 35px 'MiPropiaFuente';
                 text-shadow: gray 3px 3px 5px;
+                color: rgba(0, 0, 0, 0.55);
             }
         </style>
     </head>
